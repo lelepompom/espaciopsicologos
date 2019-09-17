@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import './styles/variables.scss';
+
+h1 {    
+    color: $black;
+    font-family: $regular;
+    font-size: 32pt;
+    font-weight: 700;
+}
+
+p, span {
+    color: $black;
+    font-family: $regular;
+    font-size: 12pt;
+    line-height: 15pt;
+    font-weight: 400;
+    a {
+        color: $black;
+        cursor: pointer;
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
