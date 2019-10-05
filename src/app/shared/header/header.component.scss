@@ -1,0 +1,13 @@
+@import '../../../styles.scss';
+
+.custom-jumbotron {
+    background-position: top;
+    background-size: cover;
+}
+
+@include media-breakpoint-up(sm) {
+    .custom-jumbotron {
+        background-position: center;
+        background-size: cover;
+    }
+}

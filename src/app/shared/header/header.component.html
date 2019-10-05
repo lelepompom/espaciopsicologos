@@ -1,0 +1,19 @@
+<!-- <div *ngIf="!route" id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{{ carouselImgs[2] }}">
+        <div class="carousel-caption d-none d-md-block">
+          <h1 class="display-4">{{ title }}</h1>
+          <hr class="my-4">
+          <p class="lead">{{ description }}</p>
+        </div>
+      </div>
+    </div>
+</div> -->
+<div class="jumbotron jumbotron-fluid custom-jumbotron" [ngStyle]="{'background-image': background}">
+    <div class="container">
+      <h1 class="display-4">{{ title }}</h1>
+      <hr class="my-4">
+      <p class="lead">{{ description }}</p>
+    </div>
+</div>
