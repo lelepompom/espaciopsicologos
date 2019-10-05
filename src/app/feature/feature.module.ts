@@ -3,13 +3,17 @@ import { CommonModule } from '@angular/common';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { NotfoundComponent } from './templates/notfound/notfound.component';
-import { MaintenanceComponent } from './templates/maintenance/maintenance.component';
+import { HomeComponent } from './home/home.component';
+import { TeamComponent } from './team/team.component';
+import { LaborComponent } from './labor/labor.component';
+import { AreaComponent } from './area/area.component';
+import { CollaborationComponent } from './collaboration/collaboration.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
 @NgModule({
-  declarations: [NotfoundComponent, MaintenanceComponent],
+  declarations: [HomeComponent, TeamComponent, LaborComponent, AreaComponent, CollaborationComponent, ContactComponent],
   imports: [
     CommonModule,
     HttpClientModule,
@@ -22,10 +26,6 @@ import { MaintenanceComponent } from './templates/maintenance/maintenance.compon
         deps: [ HttpClient ]
       }
     })
-  ],
-  exports: [
-    NotfoundComponent,
-    MaintenanceComponent,
   ]
 })
-export class CoreModule { }
+export class FeatureModule { }

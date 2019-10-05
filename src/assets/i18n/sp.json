@@ -2,11 +2,30 @@
     "general": {
         "pagename": "Espacio Psicólogos"
     },
+    "menu": {
+        "team": "El equipo",
+        "labor": "Cómo trabajamos",
+        "area": "Áreas de intervención y trabajo",
+        "collaboration": "Colaboraciones",
+        "contact": "Contacto"
+    },
     "maintenance": {
         "title": "Estamos trabajando en nuestra web",
         "text": "Puede ponerse en contacto con nosotros por teléfono, llamando al <a href='tel:+34-91-319-4463'>91 319 44 63</a>",
         "inmaTel": "Inmaculada Villena: <a href='tel:+34-660-909-219'>660 90 92 19</a> ",
         "mariaTel": "María Castillo: <a href='tel:+34-630-424-430'>630 42 44 30</a> ",
         "direction": "Calle Rafael Calvo 42, Escalera Derecha, 1º Derecha 28010 Madrid."
+    },
+    "area": {
+    },
+    "collaboration": {
+    },
+    "contact": {
+    },
+    "home": {
+    },
+    "labor": {
+    },
+    "team": {
     }
 }

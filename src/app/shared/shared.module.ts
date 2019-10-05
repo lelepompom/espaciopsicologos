@@ -3,13 +3,14 @@ import { CommonModule } from '@angular/common';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { NotfoundComponent } from './templates/notfound/notfound.component';
-import { MaintenanceComponent } from './templates/maintenance/maintenance.component';
+import { MenuComponent } from './menu/menu.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
 @NgModule({
-  declarations: [NotfoundComponent, MaintenanceComponent],
+  declarations: [MenuComponent, HeaderComponent, FooterComponent],
   imports: [
     CommonModule,
     HttpClientModule,
@@ -24,8 +25,9 @@ import { MaintenanceComponent } from './templates/maintenance/maintenance.compon
     })
   ],
   exports: [
-    NotfoundComponent,
-    MaintenanceComponent,
+    MenuComponent,
+    HeaderComponent,
+    FooterComponent,
   ]
 })
-export class CoreModule { }
+export class SharedModule { }
