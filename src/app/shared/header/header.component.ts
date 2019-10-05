@@ -15,6 +15,7 @@ export class HeaderComponent implements OnInit {
   public description: string;
   private assets = '../../../assets/';
   public carouselImgs = [];
+  public activeImg = 0;
 
   constructor(
     private location: Location,
@@ -69,6 +70,17 @@ export class HeaderComponent implements OnInit {
           break;
       }
     });
+  }
+
+  public changeSlide(side: string): void {
+    switch (side) {
+      case 'prev':
+        this.activeImg = this.activeImg > 0 ? this.activeImg - 1 : this.activeImg = this.carouselImgs.length - 1;
+        break;
+      case 'next':
+        this.activeImg = this.activeImg < this.carouselImgs.length - 1 ? this.activeImg + 1 : this.activeImg = 0;
+        break;
+    }
   }
 
 }

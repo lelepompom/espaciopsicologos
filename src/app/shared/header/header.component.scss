@@ -4,6 +4,22 @@
     background-position: top;
     background-size: cover;
 }
+.carousel-inner {
+    max-height: 65vh;
+}
+.custom-caption {
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-bottom: 35px;
+    background-color: white;
+    text-align: left;
+    padding: 20px 40px;
+    filter: opacity(0.60);
+}
+.custom-hr {
+    border-top: 1.5px solid $yellow;
+}
 
 @include media-breakpoint-up(sm) {
     .custom-jumbotron {
