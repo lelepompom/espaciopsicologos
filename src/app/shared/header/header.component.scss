@@ -4,8 +4,8 @@
     background-position: top;
     background-size: cover;
 }
-.carousel-inner {
-    max-height: 65vh;
+.carousel-inner, .carousel-item {
+    max-height: 70vh;
 }
 .custom-caption {
     width: 100%;
@@ -14,11 +14,24 @@
     margin-bottom: 35px;
     background-color: white;
     text-align: left;
-    padding: 20px 40px;
+    padding: 20px 15%;
     filter: opacity(0.60);
 }
 .custom-hr {
     border-top: 1.5px solid $yellow;
+    margin: 1.5rem 0;
+}
+
+@include media-breakpoint-down(sm) {
+    .description {
+        display: none;
+    }
+    .main-title{
+        font-size: 16pt;
+    }
+    .custom-hr {
+        margin: .5rem 0px 0px;
+    }
 }
 
 @include media-breakpoint-up(sm) {
