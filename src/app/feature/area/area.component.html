@@ -1,3 +1,29 @@
 <div class="container">
-    <p>area works!</p>
+    <div class="row">
+        <div class="col-sm-12">
+            <p>{{ 'area.treatments.abstract' | translate }}</p>
+        </div>
+        <div class="col-md-3" *ngFor="let topic of ('area.treatments.topics' | translate)"><p><span class="list--dot-icon"><i class="fas fa-circle"></i></span><span> {{ topic }}</span></p></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <p class="mt-3">{{ 'area.diagnosis.abstract' | translate }}</p>
+        </div>
+        <div class="col-lg-3" *ngFor="let topic of ('area.diagnosis.topics' | translate)"><p><span class="list--dot-icon"><i class="fas fa-circle"></i></span><span> {{ topic }}</span></p></div>
+    </div>
+    <div class="row pb-3">
+        <div class="col-sm-12">
+            <p class="mt-3">{{ 'area.issues.abstract' | translate }}</p>
+        </div>
+        <div class="col-sm-6 col-md-8">
+            <p *ngFor="let topic of ('area.issues.topics' | translate)"><span class="list--dot-icon"><i class="fas fa-circle"></i></span><span> {{ topic }}</span></p>
+            <p class="small-devices" *ngFor="let topic of ('area.issues.largeTopics' | translate)"><span class="list--dot-icon"><i class="fas fa-circle"></i></span><span> {{ topic }}</span></p>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <img class="img-fluid" src="{{ assets + ('area.issues.image' | translate) }}">
+        </div>
+        <div class="col-sm-12">
+            <p class="large-devices" *ngFor="let topic of ('area.issues.largeTopics' | translate)"><span class="list--dot-icon"><i class="fas fa-circle"></i></span><span> {{ topic }}</span></p>
+        </div>
+    </div>
 </div>

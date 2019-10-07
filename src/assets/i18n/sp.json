@@ -135,7 +135,8 @@
                 "Psicoterapia de Pareja",
                 "Psicoterapia Familiar",
                 "Psicoterapia Grupal"
-            ]
+            ],
+            "image": "portrait_room_3.jpg"
         },
         "issues": {
             "abstract": "Los problemas que son más frecuentemente motivo de consulta:",
@@ -148,11 +149,14 @@
                 "Trastornos de la alimentación",
                 "Enfermedades psicosomáticas",
                 "Trastornos obsesivos",
-                "Dificultades que afectan al desarrollo de la persona en los diversos ámbitos de su vida: pareja, hijos, relaciones sociales, trabajo, etc.", 
                 "Conflictos en la familia",
-                "Problemas de conducta en niños y adolescentes, miedos, inadaptación",
                 "Problemas de pareja"
-            ]
+            ],
+            "largeTopics": [
+                "Problemas de conducta en niños y adolescentes, miedos, inadaptación",
+                "Dificultades que afectan al desarrollo de la persona en los diversos ámbitos de su vida: pareja, hijos, relaciones sociales, trabajo, etc."
+            ],
+            "image": "portrait_room_1.jpg"
         }
     },
     "collaboration": {
