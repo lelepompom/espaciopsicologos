@@ -26,7 +26,7 @@
         },
         "labor": {
             "path": "/trabajo",
-            "background": "landscape_room_3.jpg",
+            "background": "landscape_room_3_volt.jpg",
             "title": "Cómo trabajamos",
             "description": ""
         },
@@ -113,7 +113,11 @@
         ]
     },
     "labor": {
-        "abstract": "Nuestro interés y área de trabajo es la salud mental. Nos ocupamos del diagnóstico, la causa y el tratamiento de los trastornos psicológicos y de cualquier padecer humano. Sin olvidarnos de la prevención y promoción de la salud.<br/>En el equipo hay distintos métodos para el abordaje terapéutico, y  cada psicólogo, según su especialidad y posición teórica, utiliza técnicas cognitivo-conductuales, humanistas o psicoanálisis.<br/>La profesionalidad, la ética, el trato individualizado y el respeto al paciente son la  principios que guían nuestra labor."
+        "highlight": "Nuestro interés y área de trabajo es la salud mental.",
+        "abstract": "Nos ocupamos del diagnóstico, la causa y el tratamiento de los trastornos psicológicos y de cualquier padecer humano. Sin olvidarnos de la prevención y promoción de la salud.",
+        "text": "En el equipo hay distintos métodos para el abordaje terapéutico, y  cada psicólogo, según su especialidad y posición teórica, utiliza técnicas cognitivo-conductuales, humanistas o psicoanálisis.",
+        "goal": "La profesionalidad, la ética, el trato individualizado y el respeto al paciente son la  principios que guían nuestra labor.",
+        "image": "landscape_people_3.jpg"
     },
     "area": {
         "treatments": {

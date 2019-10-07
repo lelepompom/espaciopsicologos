@@ -1,1 +1,23 @@
 @import '../../../styles.scss';
+
+.custom-image {
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+}
+
+@include media-breakpoint-up(sm) { 
+    .custom-image {
+        min-height: 300px;
+    }
+}
+@include media-breakpoint-up(lg) { 
+    .custom-image {
+        min-height: 400px;
+    }
+}
+@include media-breakpoint-up(xl) { 
+    .custom-image {
+        min-height: 500px;
+    }
+}

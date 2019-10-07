@@ -45,6 +45,12 @@ a:hover {
         color: $cream;
         cursor: auto;
     }
+    &.fas--no-hover {
+        cursor: auto;
+        &:hover {
+            color: $yellow;
+        }
+    }
 }
 
 .fas-container {

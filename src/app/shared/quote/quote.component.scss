@@ -1,0 +1,21 @@
+.quote {
+    filter: opacity(0.5);
+    margin: 7%;
+    display: flex;
+    justify-content: center;
+}
+.flex-start {
+    display: flex;
+    align-self: flex-start;
+    font-size: 15pt;
+}
+.flex-end {
+    display: flex;
+    align-self: flex-end;
+    font-size: 15pt;
+}
+.quote-text {
+    line-height: 1.5;
+    margin-left: 15pt;
+    margin-right: 5pt;
+} 

@@ -6,11 +6,12 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { MenuComponent } from './menu/menu.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { QuoteComponent } from './quote/quote.component';
 
 
 
 @NgModule({
-  declarations: [MenuComponent, HeaderComponent, FooterComponent],
+  declarations: [MenuComponent, HeaderComponent, FooterComponent, QuoteComponent],
   imports: [
     CommonModule,
     HttpClientModule,
@@ -28,6 +29,7 @@ import { FooterComponent } from './footer/footer.component';
     MenuComponent,
     HeaderComponent,
     FooterComponent,
+    QuoteComponent
   ]
 })
 export class SharedModule { }

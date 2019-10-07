@@ -1,3 +1,6 @@
-<div class="container">
-    <p>labor works!</p>
+<div class="container mt-4">
+    <p><b>{{ 'labor.highlight' | translate }}</b> {{ 'labor.abstract' | translate }}</p>
+    <p>{{ 'labor.text' | translate }}</p>
+    <app-quote quoteText="{{ 'labor.goal' | translate }}"></app-quote>
 </div>
+<div class="container jumbotron jumbotron-fluid custom-image" [ngStyle]="{'background-image': image}"></div>
