@@ -181,6 +181,8 @@
     },
     "footer": {
         "abstract": "Centro sanitario autorizado por la consejería de sanidad de la comunidad de Madrid",
-        "description": "Los principios rectores de nuestro trabajo son la rigurosidad, la ética y el respeto al paciente."
+        "description": "Los principios rectores de nuestro trabajo son la rigurosidad, la ética y el respeto al paciente.",
+        "CTC": "tel:+34-91-319-44-63",
+        "CTM": "https://www.google.com/maps/place/Calle+Rafael+Calvo,+42,+28010+Madrid/@40.433917,-3.690415,15z/data=!4m5!3m4!1s0xd4228ed2bcfdb5d:0x9a206d77549a801d!8m2!3d40.4339173!4d-3.6904147?hl=es"
     }
 }

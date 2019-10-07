@@ -27,6 +27,10 @@ p, span {
     }
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .fas {
     color: $yellow;
     cursor: pointer;
