@@ -20,7 +20,7 @@
         },
         "team": {
             "path": "/equipo",
-            "background": "landscape_room_2.jpg",
+            "background": "landscape_people_4.jpg",
             "title": "El equipo",
             "description": ""
         },
@@ -67,7 +67,9 @@
         "telephone": "Teléfono: 91 319 44 63"
     },
     "team": {
-        "abstract": "Espacio psicólogos ha sido creado por un grupo de psicólogos interesados en impulsar y desarrollar la práctica de la psicoterapia en el ámbito individual, de pareja, familiar y grupal. <br/> Otro objetivo del centro es el estudio, la investigación y la impartición de talleres, creados con el fin de ofrecer una respuesta a diferentes demandas. <br/> Espacio Psicólogos está formado por psicólogos especializados en diferentes áreas y tramos de edades. Está coordinado por: ",
+        "abstract": "Espacio psicólogos ha sido creado por un grupo de psicólogos interesados en impulsar y desarrollar la práctica de la psicoterapia en el ámbito individual, de pareja, familiar y grupal.",
+        "objective": "Otro objetivo del centro es el estudio, la investigación y la impartición de talleres, creados con el fin de ofrecer una respuesta a diferentes demandas.",
+        "introductionTeam": "Espacio Psicólogos está formado por psicólogos especializados en diferentes áreas y tramos de edades. Está coordinado por: ",
         "members": {
             "inmaculada": {
                 "name": "Inmaculada",
@@ -79,6 +81,10 @@
                     "Especialista en Psicodiagnóstico y Tratamiento en Psicoterapia Psicoanalítica por la Universidad Pontificia de Comillas.",
                     "Miembro del LIPAI, turno del Colegio Oficial de Psicólogos para la intervención psicológica en la adopción internacional.",
                     "Psicoanalista."
+                ],
+                "profile": "landscape_inmaculada_4.jpg",
+                "pictures": [
+                    ""
                 ]
             },
             "maria": {
@@ -92,9 +98,19 @@
                     "Psicóloga especialista en Psicoterapia por la EFPA (Federación Europea de Asociaciones de Psicólogos).",
                     "Acreditación de Europsy.",
                     "Terapia cognitivo-conductual"
+                ],
+                "profile": "landscape_maria_4.jpg",
+                "pictures": [
+                    ""
                 ]
             }
-        }
+        },
+        "pictures": [
+            "landscape_people_1.jpg",
+            "landscape_people_2.jpg",
+            "landscape_people_3.jpg",
+            "landscape_people_4.jpg"
+        ]
     },
     "labor": {
         "abstract": "Nuestro interés y área de trabajo es la salud mental. Nos ocupamos del diagnóstico, la causa y el tratamiento de los trastornos psicológicos y de cualquier padecer humano. Sin olvidarnos de la prevención y promoción de la salud.<br/>En el equipo hay distintos métodos para el abordaje terapéutico, y  cada psicólogo, según su especialidad y posición teórica, utiliza técnicas cognitivo-conductuales, humanistas o psicoanálisis.<br/>La profesionalidad, la ética, el trato individualizado y el respeto al paciente son la  principios que guían nuestra labor."

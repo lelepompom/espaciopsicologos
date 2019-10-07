@@ -26,3 +26,26 @@ p, span {
         text-decoration: none;
     }
 }
+
+.fas {
+    color: $yellow;
+    cursor: pointer;
+    font-size: 21pt;
+    margin: 0 0.25em;
+    display: flex;
+    align-items: center;
+    &:hover {
+        color: $orange;
+    }
+    &.disabled {
+        color: $cream;
+        cursor: auto;
+    }
+}
+
+.fas-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 1.5em;
+}

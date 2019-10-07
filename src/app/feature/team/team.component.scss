@@ -1,1 +1,12 @@
 @import '../../../styles.scss';
+
+.card {
+    border: none;
+}
+.card-body {
+    border-bottom: 1.5px solid $yellow;
+    margin: 1.5rem 0;
+}
+.card-text {
+    margin-top: 1rem;
+}
