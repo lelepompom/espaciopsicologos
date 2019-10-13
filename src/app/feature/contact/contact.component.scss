@@ -1,1 +1,19 @@
 @import '../../../styles.scss';
+
+.schedule {
+    padding-bottom: 1em;
+    &:after {
+        content: "";
+        position: relative;
+        top: .5em;
+        left: .5em;
+        height: 2px;
+        width: 100px;
+        background: $yellow;
+        display: block;
+    }
+}
+
+.custom-list {
+    list-style: circle;
+}
