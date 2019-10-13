@@ -154,9 +154,21 @@
     },
     "collaboration": {
         "items": [
-            "Adeslas",
-            "CCOO",
-            "SATSE"
+            {
+                "name": "Adeslas",
+                "logo": "adeslas.png",
+                "url": "https://www.seguros.adeslas.es/productos/inicio-es"
+            },
+            {
+                "name": "Colegio de psicologos",
+                "logo": "colegio_de_psicologos.png",
+                "url": "https://www.copmadrid.org/web/"
+            },
+            {
+                "name": "Comunidad de Madrid",
+                "logo": "comunidad_de_madrid.png",
+                "url": "http://www.comunidad.madrid/"
+            }
         ]
     },
     "contact": {
