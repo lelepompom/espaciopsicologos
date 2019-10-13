@@ -2,11 +2,200 @@
     "general": {
         "pagename": "Espacio Psicólogos"
     },
+    "menu": {
+        "logo": "logo-vectoralpha.png",
+
+        "team": {
+            "key": "team",
+            "background": "landscape_people_4.jpg",
+            "title": "El equipo"
+        },
+        "labor": {
+            "key": "labor",
+            "background": "landscape_room_3_volt.jpg",
+            "title": "Cómo trabajamos"
+        },
+        "area": {
+            "key": "area",
+            "background": "landscape_room_4.jpg",
+            "title": "Áreas de intervención y tratamiento"
+        },
+        "collaboration": {
+            "key": "collaboration",
+            "background": "landscape_room_5.jpg",
+            "title": "Colaboraciones"
+        },
+        "contact": {
+            "key": "contact",
+            "background": "landscape_room_6.jpg",
+            "title": "Contacto"
+        },
+        "notFound": {
+            "background": "landscape_room_7.jpg",
+            "title": "Ops!",
+            "description": "No hemos encontrado lo que buscas"
+        }
+    },
     "maintenance": {
         "title": "Estamos trabajando en nuestra web",
         "text": "Puede ponerse en contacto con nosotros por teléfono, llamando al <a href='tel:+34-91-319-4463'>91 319 44 63</a>",
         "inmaTel": "Inmaculada Villena: <a href='tel:+34-660-909-219'>660 90 92 19</a> ",
         "mariaTel": "María Castillo: <a href='tel:+34-630-424-430'>630 42 44 30</a> ",
         "direction": "Calle Rafael Calvo 42, Escalera Derecha, 1º Derecha 28010 Madrid."
+    },
+    "home": {
+        "abstract": "Centro sanitario autorizado por la consejería de sanidad de la comunidad de Madrid",
+        "location": "C/Rafael Calvo 42, Escalera Derecha, 1º Derecha. 28010 Madrid.",
+        "telephone": "Teléfono: 91 319 44 63",
+        "title": "Espacio Psicólogos",
+        "description": "Los principios rectores de nuestro trabajo son la rigurosidad, la ética y el respeto al paciente.",
+        "images": [
+            "landscape_room_1.jpg",
+            "landscape_room_2.jpg",
+            "landscape_room_3.jpg",
+            "landscape_room_4.jpg",
+            "landscape_room_5.jpg",
+            "landscape_room_6.jpg",
+            "landscape_room_7.jpg"
+        ]
+    },
+    "team": {
+        "abstract": "Espacio psicólogos ha sido creado por un grupo de psicólogos interesados en impulsar y desarrollar la práctica de la psicoterapia en el ámbito individual, de pareja, familiar y grupal.",
+        "objective": "Otro objetivo del centro es el estudio, la investigación y la impartición de talleres, creados con el fin de ofrecer una respuesta a diferentes demandas.",
+        "introductionTeam": "Espacio Psicólogos está formado por psicólogos especializados en diferentes áreas y tramos de edades. Está coordinado por: ",
+        "members": {
+            "inmaculada": {
+                "name": "Inmaculada",
+                "surname": "Villena López",
+                "collegiate": "Colegiada nº M-12304",
+                "data": [
+                    "Licenciada en Psicología por la Universidad Complutense de Madrid.",
+                    "Tïtulo oficial de Psicóloga Especialista en Psicología Clínica.",
+                    "Especialista en Psicodiagnóstico y Tratamiento en Psicoterapia Psicoanalítica por la Universidad Pontificia de Comillas.",
+                    "Miembro del LIPAI, turno del Colegio Oficial de Psicólogos para la intervención psicológica en la adopción internacional.",
+                    "Psicoanalista."
+                ],
+                "profile": "landscape_inmaculada_4.jpg",
+                "pictures": [
+                    ""
+                ]
+            },
+            "maria": {
+                "name": "María C.",
+                "surname": "Castillo Tijada",
+                "collegiate": "Colegiada nº M-12538",
+                "data": [
+                    "Licenciada en Psicología por la Universidad Complutense de Madrid",
+                    "Psicóloga sanitaria por la U.C.M.",
+                    "Experto en Psicología Jurídica por el Colegio Oficial de Psicólogos de Madrid.",
+                    "Psicóloga especialista en Psicoterapia por la EFPA (Federación Europea de Asociaciones de Psicólogos).",
+                    "Acreditación de Europsy.",
+                    "Terapia cognitivo-conductual"
+                ],
+                "profile": "landscape_maria_4.jpg",
+                "pictures": [
+                    ""
+                ]
+            }
+        },
+        "pictures": [
+            "landscape_people_1.jpg",
+            "landscape_people_2.jpg",
+            "landscape_people_3.jpg",
+            "landscape_people_4.jpg"
+        ]
+    },
+    "labor": {
+        "highlight": "Nuestro interés y área de trabajo es la salud mental.",
+        "abstract": "Nos ocupamos del diagnóstico, la causa y el tratamiento de los trastornos psicológicos y de cualquier padecer humano. Sin olvidarnos de la prevención y promoción de la salud.",
+        "text": "En el equipo hay distintos métodos para el abordaje terapéutico, y  cada psicólogo, según su especialidad y posición teórica, utiliza técnicas cognitivo-conductuales, humanistas o psicoanálisis.",
+        "goal": "La profesionalidad, la ética, el trato individualizado y el respeto al paciente son la  principios que guían nuestra labor.",
+        "image": "landscape_people_3.jpg"
+    },
+    "area": {
+        "treatments": {
+            "abstract": "Nuestros profesionales son especialistas con una larga trayectoria  en el tratamiento  de:",
+            "topics": [
+                "Niños",
+                "Adolescentes",
+                "Adultos"
+            ]
+        },
+        "diagnosis": {
+            "abstract": "El abordaje terapéutico se define en cada caso particular según la evaluación diagnóstica, y puede ser:",
+            "topics": [
+                "Psicoterapia Individual",
+                "Psicoterapia de Pareja",
+                "Psicoterapia Familiar",
+                "Psicoterapia Grupal"
+            ],
+            "image": "portrait_room_3.jpg"
+        },
+        "issues": {
+            "abstract": "Los problemas que son más frecuentemente motivo de consulta:",
+            "topics": [
+                "Depresión y tristeza",
+                "Ansiedad",
+                "Problemas de relación social, inhibiciones",
+                "Dificultades sexuales",
+                "Trastornos del sueño",
+                "Trastornos de la alimentación",
+                "Enfermedades psicosomáticas",
+                "Trastornos obsesivos",
+                "Conflictos en la familia",
+                "Problemas de pareja"
+            ],
+            "largeTopics": [
+                "Problemas de conducta en niños y adolescentes, miedos, inadaptación",
+                "Dificultades que afectan al desarrollo de la persona en los diversos ámbitos de su vida: pareja, hijos, relaciones sociales, trabajo, etc."
+            ],
+            "image": "portrait_room_1.jpg"
+        }
+    },
+    "collaboration": {
+        "items": [
+            {
+                "name": "Adeslas",
+                "logo": "adeslas.png",
+                "url": "https://www.seguros.adeslas.es/productos/inicio-es"
+            },
+            {
+                "name": "Colegio de psicologos",
+                "logo": "colegio_de_psicologos.png",
+                "url": "https://www.copmadrid.org/web/"
+            },
+            {
+                "name": "Comunidad de Madrid",
+                "logo": "comunidad_de_madrid.png",
+                "url": "http://www.comunidad.madrid/"
+            }
+        ]
+    },
+    "contact": {
+        "abstract": "Puede ponerse en contacto con nosotros a través de los siguientes medios:",
+        "ways": [
+            "Por teléfono, llamando al 91 319 44 63",
+            "Inmaculada Villena: 660 90 92 19",
+            "María Castillo: 630 42 44 30",
+            "Por correo electrónico, dirigiéndose a"
+        ],
+        "telephoneHours": {
+            "title": "Horario de Atención Telefónica",
+            "data": "De 09.00 a 20:00 horas, de Lunes a Viernes laborables."
+        },
+        "consultationSchedule": {
+            "title": "Horario de Consulta",
+            "data": "De 09:30 a 20:30 horas ininterrumpidamente, de Lunes a Viernes laborables."
+        },
+        "location": {
+            "title": "Nuestra dirección",
+            "data": "Calle Rafael Calvo 42, Escalera Derecha, 1º Derecha 28010 Madrid."
+        }
+    },
+    "footer": {
+        "abstract": "Centro sanitario autorizado por la consejería de sanidad de la comunidad de Madrid",
+        "description": "Los principios rectores de nuestro trabajo son la rigurosidad, la ética y el respeto al paciente.",
+        "CTC": "tel:+34-91-319-44-63",
+        "CTM": "https://www.google.com/maps/place/Calle+Rafael+Calvo,+42,+28010+Madrid/@40.433917,-3.690415,15z/data=!4m5!3m4!1s0xd4228ed2bcfdb5d:0x9a206d77549a801d!8m2!3d40.4339173!4d-3.6904147?hl=es"
     }
 }
