@@ -5,6 +5,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NotfoundComponent } from './templates/notfound/notfound.component';
 import { MaintenanceComponent } from './templates/maintenance/maintenance.component';
+import { AppRoutingModule } from '../app-routing.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -12,6 +14,7 @@ import { MaintenanceComponent } from './templates/maintenance/maintenance.compon
   declarations: [NotfoundComponent, MaintenanceComponent],
   imports: [
     CommonModule,
+    AppRoutingModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
@@ -21,7 +24,8 @@ import { MaintenanceComponent } from './templates/maintenance/maintenance.compon
         },
         deps: [ HttpClient ]
       }
-    })
+    }),
+    SharedModule
   ],
   exports: [
     NotfoundComponent,

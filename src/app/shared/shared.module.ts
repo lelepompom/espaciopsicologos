@@ -7,6 +7,7 @@ import { MenuComponent } from './menu/menu.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { QuoteComponent } from './quote/quote.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -14,6 +15,7 @@ import { QuoteComponent } from './quote/quote.component';
   declarations: [MenuComponent, HeaderComponent, FooterComponent, QuoteComponent],
   imports: [
     CommonModule,
+    AppRoutingModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

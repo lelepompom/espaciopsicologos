@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { assetsFeatureURL } from 'src/assets/constants';
 
 @Component({
   selector: 'app-area',
@@ -8,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class AreaComponent implements OnInit {
 
-  public assets = '../../../assets/';
+  public assets = assetsFeatureURL;
   public customImage: string;
 
   constructor(
@@ -16,7 +17,7 @@ export class AreaComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.translate.get('area.diagnosis.image').subscribe(url => this.customImage = `url(${this.assets + url})`);
+    this.translate.get('area.diagnosis.image').subscribe(url => this.customImage = `url(${assetsFeatureURL + url})`);
   }
 
 }

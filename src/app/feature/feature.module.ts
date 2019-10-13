@@ -10,6 +10,7 @@ import { AreaComponent } from './area/area.component';
 import { CollaborationComponent } from './collaboration/collaboration.component';
 import { ContactComponent } from './contact/contact.component';
 import { SharedModule } from '../shared/shared.module';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -17,6 +18,7 @@ import { SharedModule } from '../shared/shared.module';
   declarations: [HomeComponent, TeamComponent, LaborComponent, AreaComponent, CollaborationComponent, ContactComponent],
   imports: [
     CommonModule,
+    AppRoutingModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

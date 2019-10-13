@@ -1,28 +1,17 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" routerLink="" routerLinkActive="router-link-active" >
-        <img src="../../../../assets/logo-vectoralpha.png" height="30">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" routerLink="" routerLinkActive="router-link-active"><img src={{logo}} height="30"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="menuVisibility = !menuVisibility">
       <span class="navbar-toggler-icon"></span>
     </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" routerLink="/equipo" routerLinkActive="router-link-active" >{{ 'menu.team.title' | translate }}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/trabajo" routerLinkActive="router-link-active" >{{ 'menu.labor.title' | translate }}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/areas" routerLinkActive="router-link-active" >{{ 'menu.area.title' | translate }}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/colaboraciones" routerLinkActive="router-link-active" >{{ 'menu.collaboration.title' | translate }}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/contacto" routerLinkActive="router-link-active" >{{ 'menu.contact.title' | translate }}</a>
-        </li>
+    <div class="navbar-collapse" id="navbarSupportedContent" [ngClass]="{collapse: !menuVisibility}">
+      <ul class="navbar-nav mr-auto" (click)="menuVisibility = !menuVisibility">
+        <li class="nav-item"><a class="nav-link" routerLink="/equipo" routerLinkActive="router-link-active" >{{ 'menu.team.title' | translate }}</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/trabajo" routerLinkActive="router-link-active" >{{ 'menu.labor.title' | translate }}</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/areas" routerLinkActive="router-link-active" >{{ 'menu.area.title' | translate }}</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/colaboraciones" routerLinkActive="router-link-active" >{{ 'menu.collaboration.title' | translate }}</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/contacto" routerLinkActive="router-link-active" >{{ 'menu.contact.title' | translate }}</a></li>
       </ul>
     </div>
 </nav>

@@ -3,50 +3,32 @@
         "pagename": "Espacio Psicólogos"
     },
     "menu": {
-        "home": {
-            "path": "",
-            "background": "landscape_room_1.jpg",
-            "title": "Espacio Psicólogos",
-            "description": "Los principios rectores de nuestro trabajo son la rigurosidad, la ética y el respeto al paciente.",
-            "images": [
-                "landscape_room_1.jpg",
-                "landscape_room_2.jpg",
-                "landscape_room_3.jpg",
-                "landscape_room_4.jpg",
-                "landscape_room_5.jpg",
-                "landscape_room_6.jpg",
-                "landscape_room_7.jpg"
-            ]
-        },
+        "logo": "logo-vectoralpha.png",
+
         "team": {
-            "path": "/equipo",
+            "key": "team",
             "background": "landscape_people_4.jpg",
-            "title": "El equipo",
-            "description": ""
+            "title": "El equipo"
         },
         "labor": {
-            "path": "/trabajo",
+            "key": "labor",
             "background": "landscape_room_3_volt.jpg",
-            "title": "Cómo trabajamos",
-            "description": ""
+            "title": "Cómo trabajamos"
         },
         "area": {
-            "path": "/areas",
+            "key": "area",
             "background": "landscape_room_4.jpg",
-            "title": "Áreas de intervención y tratamiento",
-            "description": ""
+            "title": "Áreas de intervención y tratamiento"
         },
         "collaboration": {
-            "path": "/colaboraciones",
+            "key": "collaboration",
             "background": "landscape_room_5.jpg",
-            "title": "Colaboraciones",
-            "description": ""
+            "title": "Colaboraciones"
         },
         "contact": {
-            "path": "/contacto",
+            "key": "contact",
             "background": "landscape_room_6.jpg",
-            "title": "Contacto",
-            "description": ""
+            "title": "Contacto"
         },
         "notFound": {
             "background": "landscape_room_7.jpg",
@@ -64,7 +46,18 @@
     "home": {
         "abstract": "Centro sanitario autorizado por la consejería de sanidad de la comunidad de Madrid",
         "location": "C/Rafael Calvo 42, Escalera Derecha, 1º Derecha. 28010 Madrid.",
-        "telephone": "Teléfono: 91 319 44 63"
+        "telephone": "Teléfono: 91 319 44 63",
+        "title": "Espacio Psicólogos",
+        "description": "Los principios rectores de nuestro trabajo son la rigurosidad, la ética y el respeto al paciente.",
+        "images": [
+            "landscape_room_1.jpg",
+            "landscape_room_2.jpg",
+            "landscape_room_3.jpg",
+            "landscape_room_4.jpg",
+            "landscape_room_5.jpg",
+            "landscape_room_6.jpg",
+            "landscape_room_7.jpg"
+        ]
     },
     "team": {
         "abstract": "Espacio psicólogos ha sido creado por un grupo de psicólogos interesados en impulsar y desarrollar la práctica de la psicoterapia en el ámbito individual, de pareja, familiar y grupal.",
