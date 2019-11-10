@@ -50,13 +50,17 @@
         "title": "Espacio Psicólogos",
         "description": "Los principios rectores de nuestro trabajo son la rigurosidad, la ética y el respeto al paciente.",
         "images": [
-            "landscape_room_1.jpg",
+            "landscape_room_13.jpg",
             "landscape_room_2.jpg",
             "landscape_room_3.jpg",
+            "landscape_room_11.jpg",
             "landscape_room_4.jpg",
             "landscape_room_5.jpg",
             "landscape_room_6.jpg",
-            "landscape_room_7.jpg"
+            "landscape_room_12.jpg",
+            "landscape_room_7.jpg",
+            "landscape_room_8.jpg",
+            "landscape_room_10.jpg"
         ]
     },
     "team": {
@@ -75,7 +79,7 @@
                     "Miembro del LIPAI, turno del Colegio Oficial de Psicólogos para la intervención psicológica en la adopción internacional.",
                     "Psicoanalista."
                 ],
-                "profile": "landscape_inmaculada_4.jpg",
+                "profile": "landscape_inmaculada_1.jpg",
                 "pictures": [
                     ""
                 ]
@@ -92,7 +96,7 @@
                     "Acreditación de Europsy.",
                     "Terapia cognitivo-conductual"
                 ],
-                "profile": "landscape_maria_4.jpg",
+                "profile": "landscape_maria_1.jpg",
                 "pictures": [
                     ""
                 ]
@@ -107,8 +111,8 @@
     },
     "labor": {
         "highlight": "Nuestro interés y área de trabajo es la salud mental.",
-        "abstract": "Nos ocupamos del diagnóstico, la causa y el tratamiento de los trastornos psicológicos y de cualquier padecer humano. Sin olvidarnos de la prevención y promoción de la salud.",
-        "text": "En el equipo hay distintos métodos para el abordaje terapéutico, y  cada psicólogo, según su especialidad y posición teórica, utiliza técnicas cognitivo-conductuales, humanistas o psicoanálisis.",
+        "abstract": "Nos ocupamos del diagnóstico, la causa y el tratamiento de los trastornos psicológicos y de cualquier padecer humano, sin olvidarnos de la prevención y promoción de la salud.",
+        "text": "En el equipo hay distintos métodos para el abordaje terapéutico, y  cada psicólogo, según su especialidad y posición teórica, utiliza técnicas cognitivo-conductuales, humanistas o psicoanalíticas.",
         "goal": "La profesionalidad, la ética, el trato individualizado y el respeto al paciente son la  principios que guían nuestra labor.",
         "image": "landscape_people_3.jpg"
     },
@@ -176,16 +180,15 @@
         "ways": [
             "Por teléfono, llamando al 91 319 44 63",
             "Inmaculada Villena: 660 90 92 19",
-            "María Castillo: 630 42 44 30",
-            "Por correo electrónico, dirigiéndose a"
+            "María Castillo: 630 42 44 30"
         ],
         "telephoneHours": {
             "title": "Horario de Atención Telefónica",
-            "data": "De 09.00 a 20:00 horas, de Lunes a Viernes laborables."
+            "data": "De 09.00 a 20:00 horas, de lunes a viernes laborables."
         },
         "consultationSchedule": {
             "title": "Horario de Consulta",
-            "data": "De 09:30 a 20:30 horas ininterrumpidamente, de Lunes a Viernes laborables."
+            "data": "De 09:30 a 20:30 horas ininterrumpidamente, de lunes a viernes laborables."
         },
         "location": {
             "title": "Nuestra dirección",
@@ -193,7 +196,7 @@
         }
     },
     "footer": {
-        "abstract": "Centro sanitario autorizado por la consejería de sanidad de la comunidad de Madrid",
+        "abstract": "Centro sanitario autorizado por la Consejería de Sanidad de la Comunidad de Madrid con número CS11050",
         "description": "Los principios rectores de nuestro trabajo son la rigurosidad, la ética y el respeto al paciente.",
         "CTC": "tel:+34-91-319-44-63",
         "CTM": "https://www.google.com/maps/place/Calle+Rafael+Calvo,+42,+28010+Madrid/@40.433917,-3.690415,15z/data=!4m5!3m4!1s0xd4228ed2bcfdb5d:0x9a206d77549a801d!8m2!3d40.4339173!4d-3.6904147?hl=es"
