@@ -21,7 +21,7 @@
             <p class="small-devices" *ngFor="let topic of ('area.issues.largeTopics' | translate)"><span class="list--dot-icon"><i class="fas fa-circle"></i></span><span> {{ topic }}</span></p>
         </div>
         <div class="col-sm-6 col-md-4">
-            <img class="img-fluid" src="{{ assets + ('area.issues.image' | translate) }}">
+            <img class="img-fluid" src="{{ assets + ('area.issues.image' | translate) }}" alt="{{ 'general.pagename' | translate }}">
         </div>
         <div class="col-sm-12">
             <p class="large-devices" *ngFor="let topic of ('area.issues.largeTopics' | translate)"><span class="list--dot-icon"><i class="fas fa-circle"></i></span><span> {{ topic }}</span></p>
