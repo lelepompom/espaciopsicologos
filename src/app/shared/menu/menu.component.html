@@ -7,11 +7,11 @@
   
     <div class="navbar-collapse" id="navbarSupportedContent" [ngClass]="{collapse: !menuVisibility}">
       <ul class="navbar-nav mr-auto" (click)="menuVisibility = !menuVisibility">
-        <li class="nav-item"><a class="nav-link" routerLink="/equipo" routerLinkActive="router-link-active" >{{ 'menu.team.title' | translate }}</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="/trabajo" routerLinkActive="router-link-active" >{{ 'menu.labor.title' | translate }}</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="/areas" routerLinkActive="router-link-active" >{{ 'menu.area.title' | translate }}</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="/colaboraciones" routerLinkActive="router-link-active" >{{ 'menu.collaboration.title' | translate }}</a></li>
-        <li class="nav-item"><a class="nav-link" routerLink="/contacto" routerLinkActive="router-link-active" >{{ 'menu.contact.title' | translate }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="/equipo" routerLink="/equipo" routerLinkActive="router-link-active" >{{ 'menu.team.title' | translate }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="/trabajo" routerLink="/trabajo" routerLinkActive="router-link-active" >{{ 'menu.labor.title' | translate }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="/areas" routerLink="/areas" routerLinkActive="router-link-active" >{{ 'menu.area.title' | translate }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="/colaboraciones" routerLink="/colaboraciones" routerLinkActive="router-link-active" >{{ 'menu.collaboration.title' | translate }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contacto" routerLink="/contacto" routerLinkActive="router-link-active" >{{ 'menu.contact.title' | translate }}</a></li>
       </ul>
     </div>
 </nav>

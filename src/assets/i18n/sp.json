@@ -1,6 +1,8 @@
 {
     "general": {
-        "pagename": "Espacio Psicólogos"
+        "title": "Espacio Psicólogos",
+        "viewport": "width=device-width, initial-scale=1",
+        "author": "Sandra Ortega Sánchez"
     },
     "menu": {
         "logo": "logo-vectoralpha.png",
@@ -44,11 +46,11 @@
         "direction": "Calle Rafael Calvo 42, Escalera Derecha, 1º Derecha 28010 Madrid."
     },
     "home": {
+        "title": "Espacio Psicólogos",
+        "description": "Los principios rectores de nuestro trabajo son la rigurosidad, la ética y el respeto al paciente.",
         "abstract": "Centro sanitario autorizado por la consejería de sanidad de la comunidad de Madrid",
         "location": "C/Rafael Calvo 42, Escalera Derecha, 1º Derecha. 28010 Madrid.",
         "telephone": "Teléfono: 91 319 44 63",
-        "title": "Espacio Psicólogos",
-        "description": "Los principios rectores de nuestro trabajo son la rigurosidad, la ética y el respeto al paciente.",
         "images": [
             "landscape_room_13.jpg",
             "landscape_room_2.jpg",
@@ -64,6 +66,8 @@
         ]
     },
     "team": {
+        "title": "El equipo",
+        "description": "Espacio Psicólogos está coordinado por Inmaculada Villena López y María C. Castillo Tijada",
         "abstract": "Espacio psicólogos ha sido creado por un grupo de psicólogos interesados en impulsar y desarrollar la práctica de la psicoterapia en el ámbito individual, de pareja, familiar y grupal.",
         "objective": "Otro objetivo del centro es el estudio, la investigación y la impartición de talleres, creados con el fin de ofrecer una respuesta a diferentes demandas.",
         "introductionTeam": "Espacio Psicólogos está formado por psicólogos especializados en diferentes áreas y tramos de edades. Está coordinado por: ",
@@ -110,6 +114,8 @@
         ]
     },
     "labor": {
+        "title": "Cómo trabajamos",
+        "description": "La profesionalidad, la ética, el trato individualizado y el respeto al paciente son los principios que guían nuestra labor.",
         "highlight": "Nuestro interés y área de trabajo es la salud mental.",
         "abstract": "Nos ocupamos del diagnóstico, la causa y el tratamiento de los trastornos psicológicos y de cualquier padecer humano, sin olvidarnos de la prevención y promoción de la salud.",
         "text": "En el equipo hay distintos métodos para el abordaje terapéutico, y  cada psicólogo, según su especialidad y posición teórica, utiliza técnicas cognitivo-conductuales, humanistas o psicoanalíticas.",
@@ -117,8 +123,10 @@
         "image": "landscape_people_3.jpg"
     },
     "area": {
+        "title": "Areas",
+        "description": "Nuestros profesionales son especialistas con una larga trayectoria.",
         "treatments": {
-            "abstract": "Nuestros profesionales son especialistas con una larga trayectoria  en el tratamiento  de:",
+            "abstract": "Nuestros profesionales son especialistas con una larga trayectoria en el tratamiento  de:",
             "topics": [
                 "Niños",
                 "Adolescentes",
@@ -157,6 +165,8 @@
         }
     },
     "collaboration": {
+        "title": "Colaboraciones",
+        "description": "Adeslas, Colegio de psicologos, Comunidad de Madrid",
         "items": [
             {
                 "name": "Adeslas",
@@ -176,6 +186,8 @@
         ]
     },
     "contact": {
+        "title": "Contacto",
+        "description": "Calle Rafael Calvo 42, Escalera Derecha, 1º Derecha 28010 Madrid.",
         "abstract": "Puede ponerse en contacto con nosotros a través de los siguientes medios:",
         "ways": [
             "Por teléfono, llamando al 91 319 44 63",

@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { assetsFeatureURL, actionIndicator } from 'src/assets/constants';
+import { SeoService } from 'src/app/core/services/seo.service';
 
 @Component({
   selector: 'app-home',
@@ -17,10 +18,12 @@ export class HomeComponent implements OnInit, OnDestroy {
   private carouselIntervalID;
 
   constructor(
-    private translate: TranslateService
+    private translate: TranslateService,
+    private seoService: SeoService
   ) { }
 
   ngOnInit() {
+    this.seoService.updateMetaTags('home');
     this.translate.get('home').subscribe(home => {
       this.carouselImgs = home.images.map(img => assetsFeatureURL + img);
       this.title = home.title;
